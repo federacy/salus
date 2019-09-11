@@ -47,7 +47,7 @@ CircleCI variables not used: CI, CI_PULL_REQUEST, CI_PULL_REQUESTS, CIRCLE_INTER
 version: 2.1
 
 orbs:
-  salus: federacy/salus@3.0.0
+  salus: federacy/salus@dev:0.1.0
 
 workflows:
   main:
@@ -61,7 +61,7 @@ workflows:
 version: 2.1
 
 orbs:
-  salus: federacy/salus@3.0.0
+  salus: federacy/salus@dev:0.1.0
 
 workflows:
   main:
@@ -76,7 +76,7 @@ workflows:
 version: 2.1
 
 orbs:
-  salus: federacy/salus@3.0.0
+  salus: federacy/salus@dev:0.1.0
 
 workflows:
   main:
@@ -91,7 +91,7 @@ workflows:
 ```
 version: 2.1
 orbs:
-  salus: federacy/salus@3.0.0
+  salus: federacy/salus@dev:0.1.0
 executors:
   salus_2_4_2:
     docker:

@@ -5,7 +5,7 @@ description: "Salus security scanner coordinator (SAST)"
 executors:
   salus:
     docker:
-      - image: coinbase/salus:latest
+      - image: federacy/salus:latest
 jobs:
   scan:
     executor: << parameters.salus_executor >>
@@ -99,7 +99,7 @@ examples:
     usage:
       version: 2.1
       orbs:
-        salus: federacy/salus@3.0.0
+        salus: federacy/salus@dev:0.1.0
       workflows:
         salus_scan:
           jobs: 
@@ -109,7 +109,7 @@ examples:
     usage:
       version: 2.1
       orbs:
-        salus: federacy/salus@3.0.0
+        salus: federacy/salus@dev:0.1.0
       workflows:
         salus_scan:
           jobs: 
@@ -120,7 +120,7 @@ examples:
     usage:
       version: 2.1
       orbs:
-        salus: federacy/salus@3.0.0
+        salus: federacy/salus@dev:0.1.0
       workflows:
         salus_scan:
           jobs: 
@@ -131,7 +131,7 @@ examples:
     usage:
       version: 2.1
       orbs:
-        salus: federacy/salus@3.0.0
+        salus: federacy/salus@dev:0.1.0
       executors:
         salus_2_4_2:
           docker:
